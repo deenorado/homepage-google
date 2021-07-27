@@ -1,158 +1,158 @@
 body {
-    width: 100vw !important;
-    font-family: Arial, Helvetica, sans-serif;
-    overflow-x: hidden;
+  width: 100vw !important;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
 }
 
 header {
-    display: inline-block;
-    width: 100vw;
-    height: 5vh;
-    margin: 5px;
+  display: inline-block;
+  width: 100vw;
+  height: 5vh;
+  margin: 5px;
 }
 
 nav a {
-    font-size: 0.8em;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    color: #000;
-    padding-left: 15px;
-    vertical-align: middle;
-    opacity: 0.7;
+  font-size: 0.8em;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: #000;
+  padding-left: 15px;
+  vertical-align: middle;
+  opacity: 0.7;
 }
 
 nav a:hover {
-    text-decoration: underline;
-    opacity: 1;
+  text-decoration: underline;
+  opacity: 1;
 }
 
 #headerLeft {
-    display: inline-block;
-    float: left;
-    line-height: 26px;
+  display: inline-block;
+  float: left;
+  line-height: 26px;
 }
 
 #headerRight {
-    display: inline-block;
-    float: right;
-    position: relative;
-    right: 40px;
+  display: inline-block;
+  float: right;
+  position: relative;
+  right: 40px;
 }
 
 #allApps {
-    display: inline-block;
-    width: 20px;
-    height: auto;
-    vertical-align: middle;
-    margin-right: 15px;
+  display: inline-block;
+  width: 20px;
+  height: auto;
+  vertical-align: middle;
+  margin-right: 15px;
 }
 
 #signInButton {
-    display: inline-block;
-    line-height: 28px;
-    padding: 0 12px;
-    border-radius: 2px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;
-    box-shadow: 0 1px 0 rgba(0,0,0,.15);
-    border: 1px solid #4285f4;
-    font-weight: bold;
-    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+  display: inline-block;
+  line-height: 28px;
+  padding: 0 12px;
+  border-radius: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+  border: 1px solid #4285f4;
+  font-weight: bold;
+  background: -webkit-linear-gradient(top, #4387fd, #4683ea);
 }
 
 #logoDiv {
-    display: block;
-    clear: both;
-    height: 40vh;
+  display: block;
+  clear: both;
+  height: 40vh;
 }
 
 #googleLogo {
-    display: block;
-    position: absolute;
-    top: 30vh;
-    left: 40vw;    
+  display: block;
+  position: absolute;
+  top: 30vh;
+  left: 41vw;
 }
 
 #searchDiv {
-    clear: both;
-    height: 10vh;
+  clear: both;
+  height: 10vh;
 }
 
 #searchBox {
-    display: inline-block;
-    position: absolute;
-    height: 6vh;
-    left: 30%;
-    width: 40vw;
-    border: 0.2px solid lightgray;
-    border-radius: 25px;
+  display: inline-block;
+  position: absolute;
+  height: 6vh;
+  left: 30%;
+  width: 40vw;
+  border: 0.2px solid lightgray;
+  border-radius: 25px;
 }
 
 #searchBox:hover {
-    box-shadow: tomato;
-    background-color: white;
+  box-shadow: tomato;
+  background-color: white;
 }
 
 #submit {
-    display: inline-block;
-    position: absolute;
-    padding: 0px 20px;
-    left: 40%;
+  display: inline-block;
+  position: absolute;
+  padding: 0px 20px;
+  left: 40%;
 }
 
 #feelingLucky {
-    display: inline-block;
-    position: absolute;
-    padding: 0px 20px;
-    left: 50%;
+  display: inline-block;
+  position: absolute;
+  padding: 0px 20px;
+  left: 50%;
 }
 
 label input {
-    line-height: 40px;
-    border: none;
-    border-radius: 5px;
+  line-height: 40px;
+  border: none;
+  border-radius: 5px;
 }
 
 label input:hover {
-    border: 1px solid lightgray;
-    box-shadow: lightgray;
-    opacity: 1;
-    background-color: rgba(211, 211, 211, 0.479);
+  border: 1px solid lightgray;
+  box-shadow: lightgray;
+  opacity: 1;
+  background-color: rgba(211, 211, 211, 0.479);
 }
 
 footer {
-    display: block;
-    position: fixed;
-    bottom: 0;
-    width: 100vw;
-    line-height: 50px;
-    background-color: lightgray;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  line-height: 50px;
+  background-color: lightgray;
 }
 
 #footerLeft {
-    display: inline-block;
-    float: left;
-    margin-left: 20px;
+  display: inline-block;
+  float: left;
+  margin-left: 20px;
 }
 
 footer a {
-    text-decoration: none;
-    margin: 0px 5px;
-    font-size: 0.9em;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    color: #000;
-    opacity: 0.7;
+  text-decoration: none;
+  margin: 0px 5px;
+  font-size: 0.9em;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: #000;
+  opacity: 0.7;
 }
 
 footer a:hover {
-    opacity: 1;
-    text-decoration: underline;
+  opacity: 1;
+  text-decoration: underline;
 }
 
 #footerRight {
-    display: inline-block;
-    float: right;
-    position: relative;
-    margin-right: 40px;
+  display: inline-block;
+  float: right;
+  position: relative;
+  margin-right: 40px;
 }
