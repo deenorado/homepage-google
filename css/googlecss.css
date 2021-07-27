@@ -122,8 +122,8 @@ label input:hover {
 
 footer {
     display: block;
-    position: absolute;
-    top: 560px;
+    position: fixed;
+    bottom: 0;
     width: 100vw;
     line-height: 50px;
     background-color: lightgray;
